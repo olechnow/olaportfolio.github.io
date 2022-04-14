@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Johana Smith's Portfolio
+    </title>
+    <link href="./olastyle.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+  
+        <h1>Ola Olechnowicz</h1>
+    </header>
+
+
+    <main>
+      <!--About Section -->
+
+
+    <div id="aboutsection">
+       <figure > <a href="https://www.linkedin.com/in/aleksandra-olechnowicz-brisbane/" target="_blank" class="change">
+        <img class="nohover" src="myprofile1.jpg" width="200" height="100%" alt="Welcome to my profile">
+    <img class='hover' src="myprofile2.png" width="200"></a>  
+       </figure>
+       <div class="card"></div>
+        <h2 id="about" class="heading uppercase" >About</h2>
+        <p>I am a <strong>Module Administrator </strong> support of online teaching and professional development resources offered to QUT
+            Higher&nbsp;Degree&nbsp;Research&nbsp;(HDR) students, <em>Early Career Researchers</em>and their supervisors via the e-Grad School.
+            I am people-focused and passionate about using <i>innovative design methodologies</i> to create unique and exciting
+            digital experiences for people.</p>
+      </div>
+         <br>
+      <!-- Skills Section -->
+            <h3 id="skills">Skills</h3>
+        <h4>Research Skills</h4>
+        <ul class="list">
+            <li>one </li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <h4>Interpersonal Skills</h4>
+        <ul class="list">
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+        </ul>
+        <h4>Technical Skills</h4>
+        <ul class="list">
+            <li>sky</li>
+            <li>water</li>
+            <li> earth</li>
+        </ul>
+    </div>
+    <!--Accomplishments Section -->
+    <div id="accomplishmentsection">
+        <h2 id="accomplishments" onmouseover="style.color='blue'" onmouseout="style.color='black'">Accomplishments</h2>
+    
+        <h3>Coding Examples</h3>
+    <a href="olaquiz.html" target="_blank">Take the Portfolio Quiz!</a>
+    </div>
+    <h2> My publications</h2>
+<div id="publication">
+    <p>My latest work:</p>
+<p>2021, J Ben...<br>
+2022, J. Ben <br>
+2022, J. Ben </p>
+<br>
+<gr></gr>
+<p id="show" style="display:none">2010, J.Ben <br>
+2012, J Ben 
+<br>
+2013 J. Ben</p>
+<input type ="button" onclick="document.getElementById('show').style.display='block'"value = "More publications">
+<br>
+<br>
+</div>    
+<br>
+    <table id="newtable">
+        <tr>
+            <th scope="col">Publications</th>
+            <th scope="col">Awards</th>
+            <th scope="col">Presentations</th>
+          </tr>
+          <tr>
+            <td scope="row"> Content</td>
+            <td scope="row">Content </td>
+            <td scope="row"> Content</td>        
+        </tr>
+        <tr>
+            <td scope="row"> Content</td>
+            <td scope="row">Content </td>
+            <td scope="row"> Content</td>    
+          <tr>
+            <tr>
+             <td scope="row"> Content</td>
+             <td scope="row">Content </td>
+             <td scope="row"> Content</td>    
+         <tr>
+         <tr>
+            <td scope="row"> Content</td>
+            <td scope="row">Content </td>
+            <td scope="row"> Content</td>    
+       <tr>
+    </table>                                                      
+      <br>
+      <br>
+<br>
+<h2>Research Activities</h2>
+<br>
+      <button class="accordion"><strong>Research and Teaching experience</strong></button>
+      <div class="panel">
+        <p id="accordiontext">University of Massachusetts, Amherst, MA<br>
+            The Center for Research on Families<br>
+            Research Assistant, January - June 2018<br>
+            Performed literature searches, data entry, and data analysis. Assisted with participant recruitment. Helped create research presentation posters and PowerPoint slides.<br>
+            Smith College, Northampton, MA<br>
+            Department of Psychology<br>
+            Summer Undergraduate Research Fellow, June - August 2017<br>
+            Assisted in creating surveys and conducting interviews to explore perspectives on race and gender in the teaching profession..</p>
+      </div>
+      
+      <button class="accordion"><strong>Conferences</strong></button>
+      <div class="panel">
+        <p id="accordiontext">International Conference on Gobal issues, 2017<br>
+            “Exploring Attitudes on Race and Gender in the Teaching Profession.” Br>
+            Presented at Smith in the World Conference, October 2017
+        </p>
+      </div>
+      
+      <button class="accordion"><strong>Grants and awards</strong></button>
+      <div class="panel">
+        <p id="accordiontext">National Science Foundation Award<br>
+            The National Honor Society in Psychology<br>
+            Women and Debate Award
+        </p>
+      </div> 
+
+    <!--Contact Section -->
+    <div id="contactsection">
+        <h2 id="contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/aleksandra-olechnowicz-brisbane/" target="_blank"> LinkedIn</a>
+        <br>
+        <br>
+        <form>
+            <label for="name">Name*:</label>
+            <br>
+            <input type="text" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email*:</label>
+            <br>
+            <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <br>
+            <br>
+            <label for="mobile">Mobile (optional):</label>
+            <br>
+            <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+            <br>
+            <br>
+            <label for ="textarea">Leave your message below</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30">
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send" id="submit" onclick="myFunction()">
+          </form>
+        </div>
+<br>
+<audio id="beep" src="boxingsound.mp3"></audio>
+
+<script>
+    function myFunction() {
+      alert("Thank you for sending your message. We will come back to you within 24 hours.");
+    }
+    </script>
+
+<script type='text/javascript'>
+function goodbye(e) {
+    if(!e) e = window.event;
+    //e.cancelBubble is supported by IE - this will kill the bubbling process.
+    e.cancelBubble = true;
+    e.returnValue = 'You sure you want to leave?'; //This is displayed on the dialog
+
+    //e.stopPropagation works in Firefox.
+    if (e.stopPropagation) {
+        e.stopPropagation();
+        e.preventDefault();
+    }
+}
+window.onbeforeunload=goodbye; 
+</script>
+
+</main>
+<script src="./nav.js"></script>
+</body>
+
+</html>
